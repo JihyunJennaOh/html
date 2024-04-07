@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+            /*block level element : 화면전체를 다 사용
+            h1{
+                border-width: 5px;
+                border-color: red;
+                border-style: solid;
+                display: inline; 3. h태그가 화면전체를 다 쓰는 것이 아닌 다른 줄과 
+                display: none;  4. 보여지지 않는다
+            }
+            inline element : 자기부피만큼만 사용
+            a {
+                border-width: 5px;
+                border-color: red;
+                border-style: solid;
+                display: block; 5. 전체화면을 차지할 수 있게하는
+            }
+            중복되는 부분이 많기 때문에 아래와 같이 바꾼다.*/
+
+            h1, a{
+                border: 5px solid red; /*순서는 상관X*/
+                /*display:none;*/
+            }   
+        </style>
+    </head>
+    <body>
+        <h1>CSS</h1><!--1. h 태그는 제목태그이기 때문에 화면 전체를 쓰는 것이 기본적으로 더 편리하기 때문-->
+        Cascading Style Sheets (<a href="https://en.wikipedia.org/wiki/CSS">CSS</a>)<!--2. 링크는 줄바꿈을 하지않고--> 
+        is a style sheet language used for describing the presentation of a document written in a markup language.
+    </body>
+</html>

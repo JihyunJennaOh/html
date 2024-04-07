@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div{
+            border: 5px solid green;
+            font-size: 60px;
+        }
+        /*화면 크기에 따라 보이거나 안보이게 하는,, 개발창 띄어서 움직이면 오른쪽 위에 창 크기가 나옴
+            screen width > 800px : 화면의 크기가 최소 800px일 때 div 태그가 동작, 아래와 같은 뜻*/
+        /*@media(min-width:800px){
+            screen width < 800px*/
+        @media(max-width:800px){
+            div{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Responsive
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #grid{
+            border:5px solid pink;
+            display:grid;
+            grid-template-columns: 150px 1fr;
+            /*grid-template-colums: 2fr 1fr;
+            1fr: 화면 전체를 사용하게 자동으로 조정되는 값*/
+        }
+        div{
+            border:5px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <div id="grid"> <!--아래 두개 태그를 한 번에 묶기 위해서 임의로 "grid"라고 설정한 것-->
+        <div>NAVIGATION</div>
+        <div>ARTICLE</div>
+    </div>
+</body>
+</html>
